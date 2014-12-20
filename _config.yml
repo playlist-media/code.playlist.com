@@ -10,6 +10,10 @@ baseurl: /
 domain_name: 'https://code.playlist.com'
 permalink: /:title/
 
+redcarpet:
+  extensions:
+    - autolink
+
 # Details for the RSS feed generator
 url: 'https://code.playlist.com'
 author: Playlist Engineering

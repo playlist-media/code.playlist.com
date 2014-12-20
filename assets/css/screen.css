@@ -869,13 +869,13 @@ body:not(.post-template) .post-title {
 }
 
 /* Keep images centred and within the bounds of the post-width */
-.post-content img {
+/*.post-content img {
     display: block;
     max-width: 100%;
     height: auto;
     margin: 0 auto;
     padding: 0.6em 0;
-}
+}*/
 
 /* Break out larger images to be wider than the main text column
    the class is applied with jQuery */

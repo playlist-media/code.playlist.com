@@ -8,6 +8,10 @@
 	display:inline;
 }
 
+.post-template .post-title {
+  margin-bottom: .5em;
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
 	"syntax"
