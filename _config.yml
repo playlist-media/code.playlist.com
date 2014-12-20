@@ -1,0 +1,22 @@
+name: Code at Playlist
+description: Engineering blog
+meta_description: "Playlist engineering blog"
+
+markdown: redcarpet
+highlighter: pygments
+logo: false
+paginate: 15
+baseurl: /
+domain_name: 'https://code.playlist.com'
+permalink: /:title/
+
+# Details for the RSS feed generator
+url: 'https://code.playlist.com'
+author: Playlist Engineering
+
+# Author hash
+authors:
+  jacobwgillespie:
+    name: Jacob Gillespie
+    email: jacob@playlist.com
+    gravatar_hash: 3786846619a7022bbf3bd5fdd5aab1c6

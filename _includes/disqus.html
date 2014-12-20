@@ -1,0 +1,5 @@
+<section class="disqus" id="comments">
+    {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% elsif site.permalink contains category_dir %}{{ '/' | page.url | remove:'index.html' | '/' }}{% else %}{{ page.url | remove:'index.html' | '/' }}{% endif %}{% endcapture %}
+    <script src="https://apis.google.com/js/plusone.js"></script>
+    <div id="g-comments" class="g-comments" data-href="{{ canonical }}" data-width="710" data-first_party_property="BLOGGER" data-view_type="FILTERED_POSTMOD"></div>
+</section>
